@@ -4,12 +4,13 @@
 
 # 🏂 Overview
 
-RuneAlpha is a Super-Dapp on the Runes Protocol (Bitcoin) 🚀. It’s your gateway to dive deep into the Rune protocol, keep an eye on transactions, crunch data, and offer extensive support for Rune 💪.
+RuneAlpha 是一个基于比特币公链符文协议的超级APP 🚀.它是你深入研究符文协议的入口 , 查看交易数据, 处理数据, 并为符文协议提供广泛的工具和基础设施💪.
 
 
 
-RuneAlpha is your crypto Swiss Army knife, featuring:
+RuneAlpha 是的你加密瑞士军刀, 主要特征有如下:
 
-* A toolbox for token etching and minting, perfect for all you crypto artists out there 🎨
-* A Rune Explorer to help you trail transactions and manage your Rune assets like a pro 💼
-* A marketplace for Rune Trader, turning you into a Rune mogul 🏦
+* 一个用于token蚀刻和铸造的工具箱，非常适合所有的加密艺术家🎨。
+* 一个符文的探索器，帮助你跟踪交易和管理你的符文资产，就像一个专业的资产管理员💼
+* 一个符文交易市场，让你成为符文大富豪🏦
+
