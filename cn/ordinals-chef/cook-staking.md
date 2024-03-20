@@ -1,62 +1,60 @@
-# 👩‍🍳 Cook Staking
+# 👩‍🍳 Cook 质押
 
-## Rules
+## 规则
 
-\
-The rules of the game are straightforward: every **5,000 $COOK** **STAKING** will equal one entry ticket for the prize draw.
-
-The ticket numbers will be displayed on RuneAlpha before the appearance of the end block.\
+游戏规则很简单:每 **5000 个$COOK（5张）下注** 等于一张抽奖入场券。
+门票号码将显示在RuneAlpha结束块的出现之前
 
 
-**Snapshot Period:**
+**快照时期:**
 
-* **Start Block:** TBA
-* **End Block:** TBA
+* **开始块:** 待定
+* **结束块:** 待定
 
 
 
-## Selection Process
+## 选拔过程
 
-The selection process for determining winners is carefully designed to ensure fairness and randomness, leveraging blockchain technology. Here is a step-by-step guide to our selection algorithm:
+确定获胜者的选择过程经过精心设计，以确保公平性和随机性，利用区块链技术。下面是我们选择算法的一步一步指南:
 
-#### Pre-Event Announcement
+#### 事前公告
 
-* The **End Block** to determine the winner(s) will be announced before the event.
+* 在**结束块**时，将宣布获胜者。
 
-#### Initial Winner Selection
+#### 初步获奖者评选
 
-* Extract the last 8 characters of the hash from the **End Block**.
-* Convert these 8 characters into a decimal number, denoted as `s`.
-* Calculate the index of the first winning ticket as `index_1 = s mod n`, where `n` is the initial total number of tickets.
-* Remove the winning ticket from the list, decreasing the total ticket count by 1.
+* 从**结束块**中提取哈希的最后8个字符
+* 将这8个字符转换为十进制数，记为' s ' 
+* 计算第一张中奖彩票的索引为' index_1 = s mod n '，其中' n '是彩票的初始总数
+* 从列表中删除中奖彩票，减少总彩票计数1
 
-#### Subsequent Winner Selections
+#### 随后的获奖者评选
 
-For each subsequent winner `i` (starting from the second winner):
+对于每个后续获奖者' i '(从第二个获奖者开始):
 
-1. Use the last 5 characters of the previous winner's address.
-2. Convert these 5 characters into a decimal number, `s_i`.
-3. Calculate the index of the winning ticket as `index_i = s_i mod (n - (i-1))`, where `n - (i-1)` reflects the updated total number of tickets after removing winners.
-4. Remove the winning ticket from the list, continuing to adjust the total ticket count for each selection.
+1. 使用前一位获奖者地址的最后5个字符。
+2. 将这5个字符转换为十进制数` s_i `。
+3. 计算中奖彩票的索引为` index_i = s_i mod (n - (i-1)) `，其中` n - (i-1) `反映删除中奖者后更新的彩票总数。
+4. 从列表中删除中奖彩票，继续调整每次选择的总票数。
 
-#### Repeat the Process
 
-* Continue the process, using the last 8 characters of the most recent winner's address to select the next winner.
-* Repeat until all desired tickets are picked or no tickets remain.\
+#### 重复这个过程
 
+* 继续这个过程，使用最近赢家地址的最后8个字符来选择下一个赢家。
+* 重复，直到所有所需的票被选中或没有票剩下
 
 #### Example:
 
-* Let's say the End Block will be 834200 Its blockhash will be:  \
+* 假设结束区块是834200，它的区块散列是:  \
   [https://mempool.space/block/000000000000000000001b95867e0182e85e74313cf5b6b1080fe762634b70dd](https://mempool.space/block/000000000000000000001b95867e0182e85e74313cf5b6b1080fe762634b70dd)
-* Total valid tickets: **888**\
+* 有效门票总数: **888**\
   \
-  **Select first winner:**
-* Extract the last 8 characters of the hash code: `634b70dd`
-* Convert `634b70dd` to a decimal number: **1665888477**
-* Perform the operation: **1665888477 mod 888** = **477**
-* Therefore, ticket number **477** is the first ticket selected.\
+  **选择第一名获胜者:**
+* 提取哈希码的最后8个字符: `634b70dd`
+* 将' 634b70dd '转换为十进制数: **1665888477**
+* 执行操作: **1665888477 mod 888** = **477**
+* 因此，票号**477**是第一张被选中的票.\
   \
-  The wallet address associated with ticket number 477 will serve as the basis (or 'seed') for determining the next winner\
-  This procedure will be repeated, using each new winner's wallet address as the seed for the subsequent selection, until a total of 333 winners have been chosen.
+ 与彩票号码477相关联的钱包地址将作为决定下一位获胜者的基础(或“种子”)
+这个过程将重复，使用每个新获胜者的钱包地址作为后续选择的种子，直到总共333名获胜者被选中。
 
