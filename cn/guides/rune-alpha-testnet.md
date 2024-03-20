@@ -1,50 +1,50 @@
 ---
 description: >-
-  Welcome to our innovation playground, where we put our products to the
-  ultimate test! 💥🔬
+  欢迎来到我们的创新乐园，在这里我们把我们的产品
+最终的考验! 💥🔬
 ---
 
 # ⚗️ Rune Alpha - Testnet
 
-## Config Network
+## 配置网络
 
 ### Unisat:
 
-* Step1: Select setting
+* 步骤1:选择setting
 
 <figure><img src="../.gitbook/assets/image (10).png" alt="" width="164"><figcaption></figcaption></figure>
 
 ###
 
-* Step2 : Select Network&#x20;
+* 第二步:选择网络&#x20;
 
 <figure><img src="../.gitbook/assets/image (11).png" alt="" width="165"><figcaption></figcaption></figure>
 
-* Step 3: Select Testnet
+* 步骤3:选择Testnet
 
 <figure><img src="../.gitbook/assets/image (12).png" alt="" width="165"><figcaption></figcaption></figure>
 
 ### Xverse
 
-* Step 1:
+* 步骤 1:
 
 <figure><img src="../.gitbook/assets/image (13).png" alt="" width="165"><figcaption></figcaption></figure>
 
-* Step 2:
+* 步骤 2:
 
 <figure><img src="../.gitbook/assets/image (14).png" alt="" width="165"><figcaption></figcaption></figure>
 
-* Step 3:
+* 步骤 3:
 
 <figure><img src="../.gitbook/assets/image (15).png" alt="" width="166"><figcaption></figcaption></figure>
 
 ### Leather
 
-Step 1:
+步骤 1:
 
 <figure><img src="../.gitbook/assets/image (16).png" alt="" width="185"><figcaption></figcaption></figure>
 
-Step 2:
+步骤 2:
 
 <figure><img src="../.gitbook/assets/image (17).png" alt="" width="188"><figcaption></figcaption></figure>
 
