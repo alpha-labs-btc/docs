@@ -1,30 +1,29 @@
 ---
 description: >-
-  It may not be fully cooked yet, but it offers a tantalizing glimpse into the
-  future of the Rune protocol
+  厨师对它可能还没有完全煮熟，但它提供了一个诱人的一瞥符文协议的未来
 ---
 
 # 🏹 Rune Alpha Period
 
-The Rune protocol is currently in the pre-launch phase, with our dedicated Chef team meticulously crafting an Alpha version. This preliminary version is designed to meet the exacting standards of the upcoming mainnet release. This demo is intended for those who are at the forefront of technology adoption, the true "Alphas."
+符文协议目前处于预发布阶段，我们的专业厨师团队精心制作Alpha版本。这个初步版本旨在满足即将发布的主网版本的严格标准。这个演示是为那些处于技术采用前沿的人准备的，他们是真正的“alpha”。
 
-* The protocol is currently adhering to the ordinal version 0.11.1, which can be found in the commit history on the GitHub repository: [https://github.com/0xmodule/ord/commits/master](https://github.com/0xmodule/ord/commits/master)
-* The protocol signature has been updated to `RUNE_ALPHA`.
-* The mainnet can be scanned at the following URL: [scan.runealpha.xyz](https://scan.runealpha.xyz/). For the testnet, please use this URL: [testnet-scan.runealpha.xyz](https://testnet-scan.runealpha.xyz/)
+* 该协议目前坚持序号版本0.11.1，可以在GitHub存储库的提交历史中找到:[https://github.com/0xmodule/ord/commits/master](https://github.com/0xmodule/ord/commits/master] 
+* 协议签名已更新为' RUNE_ALPHA ' 
+* 可以通过以下URL扫描主网:[scan.runealpha.xyz](https://scan.runealpha.xyz/)。对于测试网，请使用以下网址:[testnet-scan.runealpha.xyz](https://testnet-scan.runealpha.xyz/)
 
-Rune Standards:
+符文协议标准:
 
-💠 Implement open etchings ([#2548](https://github.com/ordinals/ord/pull/2548)) ✅\
-💠 Implement splits ([#2530](https://github.com/ordinals/ord/pull/2530))✅\
-💠 Encode runestones with tags ([#2547](https://github.com/ordinals/ord/pull/2547))✅\
-💠 Edict with zero amount allocates all remaining runes ([#2531](https://github.com/ordinals/ord/pull/2531))✅\
-💠 Always create rune, even if none were allocated ([#2543](https://github.com/ordinals/ord/pull/2543))✅\
-💠 Delta encode Rune IDs in edicts ([#2532](https://github.com/ordinals/ord/pull/2532))✅\
-💠 Track burned runes ([#2511](https://github.com/ordinals/ord/pull/2511))✅\
-💠 Don't encode divisibility if zero ([#2510](https://github.com/ordinals/ord/pull/2510))✅\
-💠 Format rune supply using divisibility ([#2509](https://github.com/ordinals/ord/pull/2509))✅
+💠 实现开放蚀刻([#2548](https://github.com/ordinals/ord/pull/2548))✅\
+💠 实现分割([#2530](https://github.com/ordinals/ord/pull/2530))✅\
+💠 编码符文石与标签([#2547](https://github.com/ordinals/ord/pull/2547))✅\
+💠 零数量的法令分配所有剩余的符文([#2531](https://github.com/ordinals/ord/pull/2531))✅\
+💠 总是创建符文，即使没有分配([#2543](https://github.com/ordinals/ord/pull/2543))✅\
+💠 Delta在指令中编码符文id ([#2532](https://github.com/ordinals/ord/pull/2532))✅\
+💠 追踪燃烧的符文([#2511](https://github.com/ordinals/ord/pull/2511))✅\
+💠 不编码可除性如果为零([#2510](https://github.com/ordinals/ord/pull/2510))✅\
+💠 使用可除性格式化符文供应([#2509](https://github.com/ordinals/ord/pull/2509))✅
 
-**CAUTION**: Remember, this is not a gourmet meal, so only the most adventurous palates should take a bite.\
+**当心**: 记住，这还不是一顿美食，所以只有最具冒险精神的人才可以品尝.\
 
 
 <figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>

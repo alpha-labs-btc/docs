@@ -1,9 +1,11 @@
-# 🤺 Risk Warning
+# 🤺 风险警告
 
-Please be careful! There’s a risk of frontrunning in the mempool when creating sought-after Rune assets.
+请小心!在创建抢手的符文资产时，有在内存池中被超过的风险。 
+ 
+当网络拥挤时，mint/铸造新的Rune资产可能会导致资金损失。网络拥塞通常是抢铸造符文资产引起的。 
+ 
+如果交易的费率太低，则在区块事件完全完成之前可能不会确认交易。在这种情况下，您将不会收到任何符文资产，并且您已支付的网络费用将不会退还。 
+ 
+这种领先现象是比特币矿工处理交易方式的结果。他们通过包含基于最高网络费率的交易来创建区块。费率较高的交易获得优先权，即使它们提交的时间较晚。
 
-When the network is congested, minting new Rune assets could potentially lead to a loss of funds. Network congestion is often caused by the creation of in-demand Rune assets.
 
-If the fee rate for your transaction is too low, your transaction might not get confirmed until the creation event is fully completed. In such a case, you won’t receive any Rune assets and the network fee you’ve paid will not be returned.
-
-This frontrunning phenomenon is a result of the way Bitcoin miners handle transactions. They create blocks by including transactions based on the highest network fee rate. Transactions with higher fee rates get priority, even if they were submitted later.
