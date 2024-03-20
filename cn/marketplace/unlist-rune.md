@@ -1,30 +1,30 @@
 ---
-description: We do not expect you to read this manual :D
+描述: 我们不要求您阅读本手册
 ---
 
-# ⛹️‍♂️ Unlist Rune
+# ⛹️‍♂️ 取消上架 符文
 
-**Note:**&#x20;
+**注意:**&#x20;
 
-* **You will have to pay a network fee when canceling because we need to renew your UTXO for security reasons**
-* **Your Runes will be sent back to your wallet when the transaction is successful**
+* **取消时您必须支付网络费用，因为出于安全原因，我们需要更新您的UTXO**
+* **当交易成功时，您的符文将被发送回您的钱包**
 
-**Step 1:** Select which Rune you want to unlist your Orders
+**步骤1:** 选择您想要取消订单的符文
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Click **My Orders** to show your all order
+**=步骤2:** 点击**我的订单**显示您的所有订单
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3:** You only cancel order which is listing
+**步骤3:** 您只能取消正在上市的订单
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-Step 4: Select **Cancel Now** to make transaction
+步骤4: 选择 **现在取消** 进行交易
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-Step 5: Once this transaction is successful, your Rune will be sent back to your wallet, and you can list it again.
+步骤5: 一旦交易成功，您的符文将被发送回您的钱包，您可以再次列出它。
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>

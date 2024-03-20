@@ -1,10 +1,10 @@
-# 🧗‍♀️ Terms of service
+# 🧗‍♀️ 符文条款
 
-1. Be aware that if there’s a backlog of orders on the platform, this could cause delays in the processing of on-chain transactions. We can’t assure you of the exact timing for on-chain processing.
-2. The rate you’re seeing now doesn’t reflect the real-time on-chain rate. Keep in mind that the on-chain rate is subject to change.
-3. If your payment account has any outbound transactions that are yet to be confirmed, it’s advisable to halt the payment or switch to a different account for the operation.
-4. If you come across orders that are currently being engraved, kindly wait for the miner’s confirmation. Please note that once a transaction is in progress, it cannot be cancelled.
-5. We cannot be held accountable if users are accessing from jurisdictions where cryptocurrency is prohibited. It’s crucial for users to comply with their local laws and regulations.
-6. **Please exercise caution when dealing with inscriptions in your wallet.** There’s a possibility that the wallet you’re using may not handle inscriptions effectively, leading to the loss of inscriptions during transactions. For the safekeeping of important subscriptions, it is recommended to use a separate wallet.
+1. 请注意，如果平台上有积压的订单，这可能会导致链上交易处理的延迟。我们无法向您保证链上处理的确切时间。
+2. 你现在看到的速率并不能反映实时链上速率。请记住，链上速率可能会发生变化。
+3. 如果您的支付账户有任何尚未确认的出境交易，建议您停止支付或切换到其他账户进行操作。
+4. 如果您遇到正在雕刻的订单，请等待矿商的确认。请注意，一旦交易正在进行中，就不能取消。
+5. 如果用户从禁止加密货币的司法管辖区访问，我们无法承担责任。用户遵守当地的法律法规是至关重要的。
+6. **请小心处理钱包内的铭文。**您使用的钱包可能无法有效处理铭文，导致交易过程中丢失铭文。为了确保重要订阅的安全，建议使用单独的钱包。
 
-Please make sure you fully comprehend these risks and are prepared to accept all consequences that may arise from them.
+请确保您完全理解这些风险，并准备好接受可能由此产生的所有后果。

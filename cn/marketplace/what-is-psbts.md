@@ -1,16 +1,17 @@
 ---
-description: >-
-  This dish has so much technical content, it’s like eating a computer chip with
-  a side of salsa! 🍽️💻🌶️
+描述: >-
+  这道菜有这么多的技术含量，它就像吃了一个电脑芯片
+萨尔萨的一面! 🍽️💻🌶️
 ---
 
-# ❓ What is PSBTs ?
+# ❓什么是 PSBTs 技术?
 
-Partially Signed Bitcoin Transactions (PSBTs) are a data format that allows wallets and other tools to exchange information about a Bitcoin transaction and the signatures necessary to complete it
+部分签名比特币交易(PSBTs)是一种数据格式，允许钱包和其他工具交换有关比特币交易的信息以及完成交易所需的签名
 
-&#x20;A PSBT can be created that identifies a set of Unspent Transaction Outputs (UTXOs) to spend and a set of outputs to receive that spent value.
+&#x20;可以创建一个PSBTs来标识一组要花费的未花费事务输出(Unspent Transaction output, utxo)和一组接收花费值的输出。
 
-RuneAlpha’s marketplace is harnessing the power of PSBTs in some pretty rad ways:
+RuneAlpha的市场正在以一些非常棒的方式利用PSBTs的力量:
 
-* **Multi-party Transactions**: PSBTs are perfect for getting multiple parties to sign off on the same transaction. We can mix and match signatures from buyers and sellers, then broadcast the result to the Bitcoin network. It’s secure and saves users a bundle.
-* **Offline Signing**: PSBTs come with handy metadata that helps devices check the addresses and amounts involved in a transaction they’re signing. This means sellers can list their items at a lower transaction cost, update anytime, and still keep their assets safe and sound. It’s all about that Bitcoin life, right?
+* **多签交易**: PSBTs 非常适合让多方签署同一笔交易。我们可以混合和匹配买家和卖家的签名，然后将结果广播到比特币网络。它是安全的，为用户节省了一大笔钱.
+
+* **离线签名**: PSBTs 带有方便的元数据，可以帮助设备检查正在签署的交易中涉及的地址和金额。这意味着卖家可以以更低的交易成本列出他们的物品，随时更新，并且仍然保持他们的资产安全可靠。都是关于比特币的生活，对吧?

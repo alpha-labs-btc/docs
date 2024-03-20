@@ -1,4 +1,4 @@
-# 🎨 Media kit
+# 🎨 媒体工具
 
 <figure><img src=".gitbook/assets/logo_ra copy 2@4x (1).png" alt="" width="187"><figcaption></figcaption></figure>
 

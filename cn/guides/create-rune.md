@@ -1,33 +1,35 @@
 ---
-description: In the Rune Protocol, we refer to it as “ETCH”.
+描述: 在符文协议中，我们称之为“ETCH(蚀刻)” .
 ---
 
-# 🤹 Create Rune
+# 🤹 创建符文
 
-**Step 1: Fill out Rune information**
+**步骤一: 填写符文信息**
 
-Make sure **Ticker** is not created
+确保没有创建 **Ticker**
 
 <figure><img src="../.gitbook/assets/image (22).png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Step 2: Select etching type**
+**步骤二: 选择etching(蚀刻)类型**
 
-RuneAlpha ís offering 2 type of etching
+RuneAlpha 提供2种蚀刻
 
-**Type 1:** The market cap will be **locked** and **loaded**, and you’ll specify the token count for each address when you’re booting up that Rune
+**类型 1:** 市场上限将被**锁定**和**加载**，并且您将在启动符文时指定每个地址的token计数
 
-Be careful of decimal selected&#x20;
 
-<figure><img src="../.gitbook/assets/image (23).png" alt="" width="563"><figcaption><p>Fixed Cap</p></figcaption></figure>
+注意选择小数&#x20;
 
-**Type 2:** Fair mint (Like **$COOK** etching), where the creator lays down the law on how many tokens can be minted per transaction and the number of blocks a minter can transact
+<figure><img src="../.gitbook/assets/image (23).png" alt="" width="563"><figcaption><p>固定限额</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (24).png" alt="" width="563"><figcaption><p>Fair mint</p></figcaption></figure>
 
-Each block takes place within 10 minutes, consider it to have a reasonable time.
+**类型2:** 公平铸币(如 **$COOK** 蚀刻)，创建者规定每笔交易可以铸造多少代币以及矿工可以交易的区块数量
 
-**Step 3: Select sats/vB** (Gas) **then Process**
+<figure><img src="../.gitbook/assets/image (24).png" alt="" width="563"><figcaption><p>公平铸币</p></figcaption></figure>
+
+每个模块在10分钟内完成，认为它有一个合理的时间。
+
+**步骤 三: 选择 sats/vB** (Gas) **然后处理**
 
 <figure><img src="../.gitbook/assets/image (25).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Please take a look **risk warning** before executing transaction
+请在执行交易前查看**风险警告**

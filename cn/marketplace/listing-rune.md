@@ -2,22 +2,22 @@
 description: Step by step to list your rune
 ---
 
-# 🏊‍♂️ Listing Rune
+# 🏊‍♂️ 上架符文
 
-**Note**: **Listing is completely free since we utilize PSBT, but be aware that unlisting requires you to make a transaction, meaning you'll part with some sats to refresh the UTXO utilized during the listing.**
+**注意**: **Listing是完全免费的，因为我们使用PSBT，但请注意，取消上架需要您进行交易，这意味着您将放弃一些sats来刷新上架期间使用的UTXO.**
 
-Step 1: Click Market in Home Page
+步骤1: 在首页点击市场
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Step 2:  Select which rune you want to exchange
+步骤2: 选择您想要交换的符文
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Step 3: Click List Rune button to show available rune to list
+步骤3: 单击列表符文按钮，显示可用的符文列表
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Step 4: Select exact rune you want to list in pop-up
+步骤4: 选择您想要在弹出框中列出的确切符文
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>

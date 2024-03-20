@@ -1,52 +1,52 @@
-# 🌀 Bitcoin Address Formats
+# 🌀 比特币地址格式
 
-Native SegWit, Nested SegWit, Taproot, and Legacy are all different Bitcoin address formats or transaction types within the Bitcoin network. Each has its own characteristics and benefits:
+原生隔离见证、嵌套隔离见证、Taproot和Legacy都是比特币网络中不同的比特币地址格式或交易类型。每一种都有自己的特点和好处:
 
-1. **Native SegWit (Segregated Witness Bech32):**&#x20;
+1. **本地隔离见证(Segregated Witness Bech32):**&#x20;
 
-&#x20;  Wallet Supported: <mark style="color:blue;">**Phantom, Leather, Unisat, Okex Wallet**</mark>
+&#x20; 钱包的支持 <mark style="color:blue;">**Phantom, Leather, Unisat, Okex Wallet**</mark>
 
-* Native SegWit addresses start with "**bc1**."
-* Also known as Bech32 addresses.
-* Utilizes the Segregated Witness (SegWit) upgrade, which segregates the witness data from the transaction data, resulting in smaller transaction sizes and lower fees.
-* Offers improved security and better scalability compared to legacy addresses.
-* Recommended for most transactions due to lower fees and enhanced features.
+* 本地隔离见证地址以 "**bc1**."开始
+* 也称为Bech32地址.
+* 利用隔离见证(SegWit)升级，将见证数据从交易数据中分离出来，从而减少交易规模和降低费用。.
+* 与遗留地址相比，提供了改进的安全性和更好的可伸缩性.
+* 由于较低的费用和增强的功能，建议用于大多数交易.
 
-&#x20;  Example: **bc1qju52hg5v6z0f5ds49p4t33wz8gl88a5cuzx7hf**
+&#x20;  举例: **bc1qju52hg5v6z0f5ds49p4t33wz8gl88a5cuzx7hf**
 
-2. **Nested SegWit (Pay to Witness Public Key Hash, P2SH-P2WPKH):**
+2. **嵌套隔离见证(付费见证公钥哈希，P2SH-P2WPKH):**
 
-&#x20;  Wallet Supported: <mark style="color:blue;">**Xverse, Unisat, Okex Wallet**</mark>
+&#x20;  钱包的支持: <mark style="color:blue;">**Xverse, Unisat, Okex Wallet**</mark>
 
-* Nested SegWit addresses start with "**3.**"
-* Combines the SegWit benefits with compatibility for older wallet software that does not support Bech32 addresses.
-* Allows for transactions to be sent to a SegWit address even if the sender's wallet doesn't natively support SegWit.
-* Transactions to nested SegWit addresses are slightly larger and may have slightly higher fees compared to native SegWit.
+* 嵌套的隔离见证地址以 "**3.**"开始
+* 将SegWit的优点与不支持Bech32地址的旧钱包软件的兼容性结合起来.
+* 允许交易发送到隔离见证地址，即使发送者的钱包本身不支持隔离见证.
+* 与本地SegWit相比，嵌套SegWit地址的交易略大，费用可能略高.
 
-&#x20;  Example: **3NeLJQTPMJTZwuyYrMJLYHmtpqT7x8dYsk**
+&#x20;  例子: **3NeLJQTPMJTZwuyYrMJLYHmtpqT7x8dYsk**
 
 3. **Taproot:**
 
-&#x20;  Wallet Supported: <mark style="color:blue;">**Xverse, Phantom, Unisat, Okex Wallet**</mark>
+&#x20;  钱包的支持: <mark style="color:blue;">**Xverse, Phantom, Unisat, Okex Wallet**</mark>
 
-* Taproot is a proposed Bitcoin improvement that enhances privacy, security, and smart contract capabilities.
-* Addresses created with Taproot start with "**bc1p.**"
-* Combines multiple spending conditions into one, making complex transactions indistinguishable from simpler ones on the blockchain for improved privacy.
-* Expected to reduce transaction fees and enable more advanced smart contracts.
+* Taproot是比特币的一项改进提议，可增强隐私、安全性和智能合约功能.
+* 用Taproot创建的地址以"**bc1p.**"开始
+* 将多个支出条件合并为一个，使复杂的交易与区块链上的简单交易无法区分，以提高隐私性.
+* 预计将降低交易费用，并实现更先进的智能合约.
 
-&#x20;  Example: **bc1psd90nx647p00y0zx04kl5sx9sgjcpeeqyh9t8d0j220ssvu250hq20c84a**
+&#x20;  例子: **bc1psd90nx647p00y0zx04kl5sx9sgjcpeeqyh9t8d0j220ssvu250hq20c84a**
 
 4. **Legacy (Pay to Public Key Hash, P2PKH):**
 
-&#x20;  Wallet Supported: <mark style="color:blue;">**Unisat**</mark><mark style="color:blue;">,</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Okex Wallet , Unisat**</mark>
+&#x20;  钱包的支持: <mark style="color:blue;">**Unisat**</mark><mark style="color:blue;">,</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Okex Wallet , Unisat**</mark>
 
-* Legacy addresses start with "**1.**"
-* These are the original Bitcoin addresses and transaction types.
-* Larger transaction sizes and typically higher fees compared to SegWit addresses.
-* While still widely supported, legacy addresses are less efficient and secure than SegWit addresses.
+* Legacy 地址以 "**1.**"开始
+* 这些是原始比特币地址和交易类型.
+* 与SegWit地址相比，交易规模更大，通常费用更高.
+* 虽然仍然得到广泛支持，但传统地址的效率和安全性不如SegWit地址.
 
-Example : **1HzCQZtedJ5jbn1YBuqgtkPVwfkjkuzyNR**
+例子 : **1HzCQZtedJ5jbn1YBuqgtkPVwfkjkuzyNR**
 
 
 
-NOTE**:** DUE TO SECURITY ISSUES AND COST OPTIMIZATION FOR USERS, WE WILL NOT SUPPORT **LEGACY WALLET**
+注意**:** 由于安全问题和成本优化的用户，我们将不支持**LEGACY 钱包**
