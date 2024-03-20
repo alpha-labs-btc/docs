@@ -1,4 +1,4 @@
-# Languages
+# 🤟 Languages
 
-* [English](en/)
-* [Chinese](ch/)
+* [🏴󠁧󠁢󠁥󠁮󠁧󠁿 English](en/)
+* [🇨🇳 Chinese](cn/)
