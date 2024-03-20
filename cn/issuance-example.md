@@ -1,20 +1,20 @@
-# 🚧 Issuance example
+# 🚧 发行例子
 
-<mark style="color:red;">`Goal: Issuance $RUNE. total supply 21,000,000`</mark>
+<mark style="color:red;">`目标:发行$RUNE。总供应量21,000,000`</mark>
 
-#### Calculate the first data in protocol message
+#### 计算协议消息中的第一个数据
 
-The first data push in a protocol message is decoded as a sequence integers. These integers are interpreted as a sequence of (ID, OUTPUT, AMOUNT) tuples\
-Integers are encoded as prefix varints, where the number of leading ones in a varint determines its length in bytes. There is many types of prefix varints, and here is the Bitcoin [style](https://en.bitcoin.it/wiki/Protocol\_documentation#Variable\_length\_integer)\
+协议消息中的第一个数据推送被解码为序列整数。这些整数被解释为(ID, OUTPUT, AMOUNT)元组序列\ 
+整数被编码为前缀可变数，其中可变数的前导数决定了其字节长度。有很多类型的前缀变体，这是比特币的[风格](https://en.bitcoin.it/wiki/Protocol\_documentation#Variable\_length\_integer)
 
 
-To issue 21000000 rune we use this tuple <mark style="color:red;">`[0 , 1, 21000000].`</mark>
+要发出21000000符文，我们使用这个元组 <mark style="color:red;">`[0 , 1, 21000000].`</mark>
 
-But why <mark style="color:red;">`[0 , 1, 21000000]`</mark> ?
+为什么是 <mark style="color:red;">`[0 , 1, 21000000]`</mark> ?
 
-* [x] First Integer in tuple is ID <mark style="color:red;">`0`</mark> for Issuance transaction
-* [x] Second Integer in tuple mapped to output index <mark style="color:red;">`1`</mark> of transaction
-* [x] Third  Integer in tuple is amount to issue <mark style="color:red;">`21000000`</mark>
+* [x] 元组中的第一个整数是ID <mark style="color:red;">`0`</mark> 为了发行交易
+* [x] 元组中的第二个整数<mark style="color:red;">`1`</mark> 映射到事务的输出索引 
+* [x] 元组中的第三个整数是发行金额 <mark style="color:red;">`21000000`</mark>
 
 <figure><img src=".gitbook/assets/Screen Shot 2023-09-27 at 00.18.26.png" alt=""><figcaption></figcaption></figure>
 
@@ -51,7 +51,7 @@ function encodeBitcoinVarIntTuple(tuple) {
 }
 ```
 
-Here is data of tuple `[0, 1, 21000000]` after  **prefix varints Bitcoin-style** encode\
+这是元组的数据 `[0, 1, 21000000]` 在对  **比特币风格的编码** 解码后\ 
 
 
 ```javascript
@@ -62,13 +62,14 @@ Here is data of tuple `[0, 1, 21000000]` after  **prefix varints Bitcoin-style**
 [0, 1, 21000000] => 0001fe406f4001
 ```
 
-#### Calculate the first data in protocol message
+#### 计算协议消息中的第一个数据
 
-The second data push is decoded as two integers, `SYMBOL`, `DECIMALS`
+第二个数据推送被解码为两个整数, `SYMBOL`, `DECIMALS`
 
-`SYMBOL` is a base 26-encoded human readable symbol, similar to that used in ordinal number sat names. The only valid characters are `A` through `Z`.
+`SYMBOL` 是一个26进制编码的人类可读符号，类似于oridinals名称中使用的符号。唯一有效的字符是` A `到` Z `.
 
-Ordinal names are a modified [base-26](https://docs.ordinals.com/bounty/3.html?highlight=base-26#criteria) encoding of ordinal numbers. To avoid locking short names inside the unspendable genesis block coinbase reward, ordinal names get _shorter_ as the ordinal number gets _longer_. The name of sat 0, the first sat to be mined is `nvtdijuwxlp` and the name of sat 2,099,999,997,689,999, the last sat to be mined, is `a`.
+
+oridinals名称是[base-26](https://docs.ordinals.com/bounty/3.html?highlight=base-26#criteria)序数的编码。为了避免将短名字锁定在不可花费的创世区块coinbase奖励中，序数变得越来越短，序数变得越来越长。第一个要挖掘的卫星0的名称是` nvtdijuwxlp `，最后一个要挖掘的卫星2,099,999,997,689,999的名称是` a `。
 
 ```javascript
 // Some code
@@ -83,7 +84,7 @@ const formatOrdinalBase26 = (text) => {
 
 ```
 
-Here is data of tuple `[RUNE, 18]` after  **prefix varints Bitcoin-style** encode\
+这是元组的数据 `[RUNE, 18]` 在对  **比特币风格的编码** 解码后\ 
 
 
 ```javascript
@@ -93,7 +94,7 @@ RUNE => 2099999997359067 => ffdbf3de59dbf3de59
 [RUNE, 18] => ffdbf3de59dbf3de5912
 ```
 
-#### Last result  of Protocol message
+#### 协议消息的最后结果
 
 ```
 OP_RETURN 52 0001fe406f4001 ffdbf3de59dbf3de5912
