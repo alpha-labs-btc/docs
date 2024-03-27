@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🏂 Overview](README.md)
+* [🏂 Overview](./)
 * [🏹 Rune Alpha Period](rune-alpha-period.md)
 * [🚧 Issuance example](issuance-example.md)
 * [🧗‍♀️ Terms of service](terms-of-service.md)
@@ -26,6 +26,6 @@
 
 * [📢 Distribution](ordinals-chef/distribution.md)
 * [👩‍🍳 Cook Staking](ordinals-chef/cook-staking.md)
-* [💯 RuneAlpha Point](ordinals-chef/runealpha-point.md)
-* [🏗️ Bitcoin Builder](ordinals-chef/bitcoin-builder.md)
-* [🔢 Auction](ordinals-chef/auction.md)
+* [💯 RuneAlpha Point](../cn/ordinals-chef/runealpha-point.md)
+* [🏗️ Bitcoin Builder](../cn/ordinals-chef/bitcoin-builder.md)
+* [🔢 Auction](../cn/ordinals-chef/auction.md)

@@ -1,3 +1,0 @@
-# 🏗️ Bitcoin Builder
-
-TBA

@@ -13,11 +13,11 @@ In Signet, the primary means of connection is through the [Leather Wallet](https
 
 Step 1: Change network
 
-<figure><img src="../.gitbook/assets/image (18).png" alt="" width="375"><figcaption><p>Change network</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt="" width="375"><figcaption><p>Change network</p></figcaption></figure>
 
 Step 2: Select Signet
 
-<figure><img src="../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Select network</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Select network</p></figcaption></figure>
 
 ### Faucet BTC signet
 
@@ -31,4 +31,4 @@ You can get some free BTC signet here:
 
 Let's embark on your DEGEN journey:
 
-<figure><img src="../.gitbook/assets/image (21).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt="" width="375"><figcaption></figcaption></figure>

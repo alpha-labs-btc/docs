@@ -2,7 +2,7 @@
 description: 搜索框接受钱包地址，符文名称，交易哈希值
 ---
 
-# 🔎 浏览
+# 浏览
 
 transactions
 

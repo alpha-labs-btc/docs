@@ -27,4 +27,4 @@ Rune Standards:
 **CAUTION**: Remember, this is not a gourmet meal, so only the most adventurous palates should take a bite.\
 
 
-<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>

@@ -16,7 +16,7 @@ But why <mark style="color:red;">`[0 , 1, 21000000]`</mark> ?
 * [x] Second Integer in tuple mapped to output index <mark style="color:red;">`1`</mark> of transaction
 * [x] Third  Integer in tuple is amount to issue <mark style="color:red;">`21000000`</mark>
 
-<figure><img src=".gitbook/assets/Screen Shot 2023-09-27 at 00.18.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2023-09-27 at 00.18.26.png" alt=""><figcaption></figcaption></figure>
 
 ```javascript
 function encodeBitcoinVarInt(value) {

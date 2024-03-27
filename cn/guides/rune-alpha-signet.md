@@ -1,8 +1,8 @@
 ---
-description: '我们永远不会忘记凯西的最新更新，以保持#阿尔法 !'
+description: 我们永远不会忘记凯西的最新更新，以保持#阿尔法 !
 ---
 
-# 👨‍🔬 Rune Alpha - Signet
+# Rune Alpha - Signet
 
 ### 配置的钱包
 
@@ -13,11 +13,11 @@ description: '我们永远不会忘记凯西的最新更新，以保持#阿尔�
 
 第一步:改变网络
 
-<figure><img src="../.gitbook/assets/image (18).png" alt="" width="375"><figcaption><p>Change network</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image%20(18).png" alt="" width="375"><figcaption><p>Change network</p></figcaption></figure>
 
 第一步: 选择 Signet
 
-<figure><img src="../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Select network</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image%20(19).png" alt="" width="375"><figcaption><p>Select network</p></figcaption></figure>
 
 ### Faucet BTC signet
 
@@ -31,4 +31,4 @@ description: '我们永远不会忘记凯西的最新更新，以保持#阿尔�
 
 让我们开始你的DEGEN之旅吧:
 
-<figure><img src="../.gitbook/assets/image (21).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image%20(21).png" alt="" width="375"><figcaption></figcaption></figure>
