@@ -11,20 +11,20 @@
 
 **步骤1:** 选择您想要取消订单的符文
 
-<figure><img src="../.gitbook/assets/image%20(4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(4).png" alt=""><figcaption></figcaption></figure>
 
 **=步骤2:** 点击**我的订单**显示您的所有订单
 
-<figure><img src="../.gitbook/assets/image%20(5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(5).png" alt=""><figcaption></figcaption></figure>
 
 **步骤3:** 您只能取消正在上市的订单
 
-<figure><img src="../.gitbook/assets/image%20(6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(6).png" alt=""><figcaption></figcaption></figure>
 
 步骤4: 选择 **现在取消** 进行交易
 
-<figure><img src="../.gitbook/assets/image%20(7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(7).png" alt=""><figcaption></figcaption></figure>
 
 步骤5: 一旦交易成功，您的符文将被发送回您的钱包，您可以再次列出它。
 
-<figure><img src="../.gitbook/assets/image%20(9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(9).png" alt=""><figcaption></figcaption></figure>

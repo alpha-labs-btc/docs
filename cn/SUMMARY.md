@@ -28,4 +28,4 @@
 * [👩‍🍳 质押](ordinals-chef/cook-staking.md)
 * [💯 RuneAlpha 核心要点](ordinals-chef/runealpha-point.md)
 * [🏗️ Bitcoin 建设者](ordinals-chef/bitcoin-builder.md)
-* [🔢 拍卖](ordinals-chef/auction.md)
+* [🔢 荷兰式拍卖](ordinals-chef/auction.md)
