@@ -8,16 +8,17 @@ description: Step by step to list your rune
 
 步骤1: 在首页点击市场
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 
 步骤2: 选择您想要交换的符文
 
-<figure><img src="../.gitbook/assets/image%20(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1).png" alt=""><figcaption></figcaption></figure>
 
 步骤3: 单击列表符文按钮，显示可用的符文列表
 
-<figure><img src="../.gitbook/assets/image%20(2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2).png" alt=""><figcaption></figcaption></figure>
 
 步骤4: 选择您想要在弹出框中列出的确切符文
 
-<figure><img src="../.gitbook/assets/image%20(3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(3).png" alt=""><figcaption></figcaption></figure>
