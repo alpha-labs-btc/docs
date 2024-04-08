@@ -5,13 +5,13 @@
 \
 The rules of the game are straightforward: every **5,000 $COOK** **STAKING** will equal one entry ticket for the prize draw.
 
-The ticket numbers will be displayed on RuneAlpha before the appearance of the end block.\
+The ticket numbers will be displayed on RuneAlpha before the appearance of the Root block.\
 
 
 **Snapshot Period:**
 
-* **Start Block:** TBA
-* **End Block:** TBA
+* **Start Block:** 837669
+* **End Block:** 838669
 
 
 
@@ -21,11 +21,11 @@ The selection process for determining winners is carefully designed to ensure fa
 
 #### Pre-Event Announcement
 
-* The **End Block** to determine the winner(s) will be announced before the event.
+* The **Root Block** to determine the winner(s) will be announced before the event.
 
 #### Initial Winner Selection
 
-* Extract the last 8 characters of the hash from the **End Block**.
+* Extract the last 8 characters of the hash from the **Root Block**
 * Convert these 8 characters into a decimal number, denoted as `s`.
 * Calculate the index of the first winning ticket as `index_1 = s mod n`, where `n` is the initial total number of tickets.
 * Remove the winning ticket from the list, decreasing the total ticket count by 1.
@@ -47,7 +47,7 @@ For each subsequent winner `i` (starting from the second winner):
 
 #### Example:
 
-* Let's say the End Block will be 834200 Its blockhash will be:  \
+* Let's say the **Root Block** will be 834200 Its blockhash will be:  \
   [https://mempool.space/block/000000000000000000001b95867e0182e85e74313cf5b6b1080fe762634b70dd](https://mempool.space/block/000000000000000000001b95867e0182e85e74313cf5b6b1080fe762634b70dd)
 * Total valid tickets: **888**\
   \
