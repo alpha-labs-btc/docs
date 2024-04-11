@@ -46,5 +46,5 @@
   * [Ordinals-chef](en/ordinals-chef/README.md)
     * [〽️ Dutch Auction](en/ordinals-chef/auction.md)
     * [👩‍🍳 Cook Staking](en/ordinals-chef/cook-staking.md)
-    * [#️ #️ RuneAlpha Point](en/ordinals-chef/runealpha-point.md)
+    * [#️ RuneAlpha Point](en/ordinals-chef/runealpha-point.md)
     * [📢 Distribution](en/ordinals-chef/distribution.md)
