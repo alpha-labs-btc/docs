@@ -32,6 +32,7 @@
   * [🤺 Risk Warning](en/risk-warning.md)
   * [🏹 Rune Alpha Period](en/rune-alpha-period.md)
   * [🧗‍♀️ Terms of service](en/terms-of-service.md)
+  * [🛣️ Roadmap](en/roadmap.md)
   * [Guides](en/guides/README.md)
     * [🌀 Bitcoin Address Formats](en/guides/bitcoin-address-formats.md)
     * [🤹 Create Rune](en/guides/create-rune.md)
